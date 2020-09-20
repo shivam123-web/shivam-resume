@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body p {
+ color: grey;    
+}
+.intro__part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.intro__part > h2{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.intro__part > h2 > span {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.intro__part > hr{
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+
+.qualification{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left:30px;
+}
+.qualification > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.qualification > hr{
+    max-width: 190px;
+    margin-bottom: 20px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;    
+}
+.experience > hr{
+    max-width: 170px;
+    margin-bottom: 10px;
+}
+.experience > p{
+    max-width: 400px;
+    line-height: 1.4;
+}
+ body p{
+    font-size: 15px;
+ }
+ .intro__part > p{
+     max-width: 600px;
+     display: flex;
+     line-height: 1.4;
+     margin-top: 30px;
+   
+ }
+ #bold__text > p{
+    font-weight: 900;
+    margin-top: 20px;
+ }
+ 
+ .main__heading{
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+     margin-left: 40%;
+
+ }
+ .main__heading > hr{
+     max-width: 250px;
+ }
+ .image{
+     display: flex;
+ }
+ .image > img {
+     position: absolute;
+     right: -4%;
+     top: 13%;
+     width: 50%;
+     height: 400px;
+     object-fit: contain;
+ }
+ .main__content{
+     position: relative;
+ }
+ .button{
+     margin-top: 10px;
+ 
+ }
+ .button > button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid rgb(240, 165, 178);
+    border-radius: 20px;
+    width: 100px;
+    height: 26px;
+   
+ }
+ .button > button > a{
+   color: #111111;
+   text-decoration: none;
+ }
+ .button > button:hover{
+     background-color: #ffc7cd;
+     color: white;
+     border: 1px solid black;
+     cursor: pointer;
+     transition: 1s ;
+ }
